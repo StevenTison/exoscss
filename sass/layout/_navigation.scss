@@ -9,6 +9,7 @@ nav {
         background-color: $main-color;
     }
     ul {
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -17,6 +18,22 @@ nav {
             list-style-type: none;
             a {
                 color: $fourth-color;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:640px) {
+    nav {
+        flex-direction: column;
+        div {
+
+        }
+        ul {
+            li {
+                a {
+
+                }
             }
         }
     }
